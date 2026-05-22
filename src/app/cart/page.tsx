@@ -200,8 +200,8 @@ export default function CartPage() {
 
               <Link
                 href="/checkout"
-                className="w-full py-4 text-sm text-white text-center block transition-opacity hover:opacity-80"
-                style={{ background: 'var(--color-text-primary)', borderRadius: 2 }}
+                className="w-full py-4 text-sm text-center block transition-opacity hover:opacity-80"
+                style={{ background: 'var(--color-text-primary)', color: '#ffffff', borderRadius: 2 }}
               >
                 Proceed to Checkout
               </Link>
